@@ -57,7 +57,7 @@ String formatSettings() {
     String(",aTuneStep=") + String(settings.aTuneStep, 3) + \
     String(",aTuneNoise=") + String(settings.aTuneNoise, 3) + \
     String(",aTuneLookBack=") + settings.aTuneLookBack + \
-    String(",aTuneType=") + settings.aTuneType;
+    String(",aTuneType=") + int(settings.aTuneType);
 }
 
 #include "libdcc/webserver.h"
